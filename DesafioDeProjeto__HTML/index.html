@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto DIO - HTML </title>
+</head>
+
+<body style="margin:0px; background-color:beige">
+    <header>
+        <nav style="background-color: #000;padding: 12px;font-size: 14px; text-align: center;">
+            <a style="padding: 10px; color:#fafafa; text-decoration:none;" href="#toolsUsed">Ferramentas utilizadas</a>
+            <a style="padding: 10px; color:#fafafa; text-decoration:none;" href="#elementInspector">Inspetor de
+                Elementos</a>
+            <a style="padding: 10px; color:#fafafa; text-decoration:none;" href="#basicStructure">Estrutura básica do
+                HTML</a>
+            <a style="padding: 10px; color:#fafafa; text-decoration:none;" href="#aboutTags">Tags</a>
+            <a style="padding: 10px; color:#fafafa; text-decoration:none;" href="#texts">Textos</a>
+            <a style="padding: 10px; color:#fafafa; text-decoration:none;" href="#orderedLists">Listas ordenadas</a>
+            <a style="padding: 10px; color:#fafafa; text-decoration:none;" href="#unorderedLists">Listas não
+                ordenadas</a>
+            <a style="padding: 10px; color:#fafafa; text-decoration:none;" href="#links">Links</a>
+            <a style="padding: 10px; color:#fafafa; text-decoration:none;" href="#references">Referências</a>
+        </nav>
+
+        <h1 style="text-align:center; font-size:3em;">Curso: Introdução ao HTML na prática </h1>
+    </header>
+
+    <main style="background-color:lightgrey;">
+
+        <h2 style="font-size:34px; text-align: center;" id="toolsUsed">Ferramentas utilizadas</h2>
+
+        <div style="margin: 25px; display:flex; justify-content: space-around;">
+            <div>
+                <img style="background-color:white; width: 185px; border-radius: 10px;"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+                    alt="Logo do VS Code">
+                <p>Editor VS Code</p>
+
+            </div>
+
+            <div>
+                <img style="background-color:lightsteelblue;width: 185px; border-radius: 10px;"
+                    src="https://play-lh.googleusercontent.com/KwUBNPbMTk9jDXYS2AeX3illtVRTkrKVh5xR1Mg4WHd0CG2tV4mrh1z3kXi5z_warlk"
+                    alt="Logo do Chrome">
+                <p>Navegador Chrome</p>
+
+            </div>
+
+            <div>
+                <img style="background-color:white;width: 185px; border-radius: 10px;"
+                    src="https://ritwickdey.gallerycdn.vsassets.io/extensions/ritwickdey/liveserver/5.7.9/1661914858952/Microsoft.VisualStudio.Services.Icons.Default"
+                    alt="Logo do Live Server">
+                <p> Live Server</p>
+            </div>
+
+        </div>
+
+        <h2 style="font-size:34px; text-align: center;" id="elementInspector">Inspetor de Elementos</h2>
+        <div style="display:flex; flex-direction: column-reverse; align-items: center;">
+            <img style="width: 65em;"
+                src="https://wd.imgix.net/image/BrQidfK9jaQyIHwdw91aVpkPiib2/UjVAPTnFGxLEc5RLDwBy.png?auto=format"
+                alt="Devtools do google">
+            <p style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">A ferramenta do desenvolvedor do
+                navegador permite que possa observar alterações no designer da página e no código visualmente pelo
+                navegador acessado.</p>
+        </div>
+
+
+        <h2 style="font-size:34px; text-align: center;" id="basicStructure">Estrutura básica do HTML</h2>
+        <p style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+            <!-- <spam style="color:red; font-weight: bold;"></spam>. -->
+            Uma convensão na hora de criar um arquivo HTML para trabalhar é chamá-lo de <spam
+                style="color:red; font-weight: bold;">index.html</spam>.
+            Toda tag html tem um ponto inicial e um ponto final, mostrado por uma barra <spam
+                style="color:red; font-weight: bold;">/</spam>.
+            O html consiste em duas partes <spam style="color:red; font-weight: bold;"> cabeça </spam>(head) e <spam
+                style="color:red; font-weight: bold;"> corpo </spam>(body).
+            Tudo que estiver no corpo é o que de fato aparece para o usuário e na cabeça fica as informações de
+            metadados, o único dado do head que aparece para o usuário é o <spam style="color:red; font-weight: bold;">
+                title </spam> que é o título da página na barra do navegador.
+        </p>
+
+
+        <h2 style="font-size:34px; text-align: center;" id="aboutTags">Falando sobre tags e atributos</h2>
+        <ul >
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> HTML </spam>tudo que estiver escrito aqui dentro será uma página html.
+            </li> 
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> HEAD </spam>local onde fica os metadados da página.
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> BODY </spam> corpo do site, parte vísivel para o usuário.
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Tag i </spam> <i>significa itálico.</i>
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Tag strong </spam> <strong>significa negrito e
+                    forte.</strong>
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Tag u </spam> <u>significa sublinhado.</u>
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Tag input </spam> é para colocar informações, campo de texto e não tem fechamento.
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Tag sup </spam> é para colocar textos subscritos, renderizado em uma fonte menor, usados para notas de rodapé.
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Atributo type </spam> é para colocar o tipo de informação que será colocado no input, o mais usado no curso será text e number.
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Tag img </spam> é para colocar imagem, ela precisa de um src que é o endereço da imagem e um alt que é a descrição da imagem,essa tag não tem fechamento.
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Tag id </spam> é para colocar como um "rg" no seu elemento, um identificador único.
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Tag style </spam> é para colocar estilização(CSS) no seu html de forma direta no código.
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Tag class </spam> é para colocar estilização(CSS) de uma maneira padronizada em mais de um elemento no seu html.
+            </li>
+
+            <li style="font-size:24px; text-align: justify; padding: 12px;margin: 12px;">
+                <spam style="color:red; font-weight: bold;"> Tag color </spam> é para colocar cor no elemento junto com o style.
+            </li>
+        </ul>
+
+        <h2 style="font-size:34px; text-align: center;" id="texts">Textos</h2>
+        <p style="font-size:24px; text-align: justify; padding:12px; margin:12px;">
+            <spam style="color:red; font-weight: bold;"> H! ...H6 </spam> são os títulos da página, sendo o H1 único, sendo o mais importante da página e os outros subtítulos. </br>
+            <spam style="color:red; font-weight: bold;"> p </spam> uma tag usada para escrever parágrafos. <br>
+            <spam style="color:red; font-weight: bold;"> responsividade </spam> uma forma de utilizar o site em vários telas como celular ou tablet. <br>
+            <spam style="color:red; font-weight: bold;"> blockquote </spam> para referenciar alguma parte do texto, utilizado em citações. 
+        </p>
+
+
+        <h2 style="font-size:34px; text-align: center;" id="orderedLists">Listas ordenadas</h2>
+        <p style="font-size:24px; text-align: justify; padding:12px; margin:12px;"> 
+            As listas ordenadas são formadas pelas tags ol e li, onde li é cada número. Exemplo abaixo:
+        <ol>
+            <li style="font-size:18px;"> Exemplo </li>
+
+            <li style="font-size:18px;"> Exemplo </li>
+
+            <li style="font-size:18px;"> Exemplo </li>
+
+            <li style="font-size:18px;"> Exemplo </li>
+
+            <li style="font-size:18px;"> Exemplo </li>
+
+        </ol>
+
+        </p>
+
+        <h2 style="font-size:34px; text-align: center;" id="unorderedLists">Listas não ordenadas</h2>
+        <p style="font-size:24px; text-align: justify; padding:12px; margin:12px;">
+            As listas não ordenadas são formadas pelas tags ul e li, onde li é cada bolinha. Exemplo abaixo:        
+            <ul style="list-style:circle;">
+                <li style="font-size:18px;"> Exemplo </li>
+    
+                <li style="font-size:18px;"> Exemplo </li>
+    
+                <li style="font-size:18px;"> Exemplo </li>
+    
+                <li style="font-size:18px;"> Exemplo </li>
+    
+                <li style="font-size:18px;"> Exemplo </li>
+            </ul>
+        </p>
+
+        <h2 style="font-size:34px; text-align: center;" id="links">Links</h2>
+        <p style="font-size:24px; text-align: justify; padding:12px; margin:12px;">
+        A tag <span style="color:red;">a</span> em html é de <span style="color:red;">anchor</span> que significa um hiperlink que é usado para ir para o endereço registrado no href, tendo a opção de ser aberto na mesma página ou em outra guia com o elemento target. 
+        </p>
+
+        <h2 style="font-size:34px; text-align: center;" id="references">Referências</h2>
+        <ul>
+            <li style="padding-bottom: 20px;">
+                <a style="margin:12px 0; color:#000; text-decoration:none;"
+                    href="https://www.w3schools.com/html/default.asp" target="_blank">W3schools</a>
+            </li>
+
+            <li style="padding-bottom: 20px;">
+                <a style="margin: 12px 0; color:#000; text-decoration:none;"
+                    href="https://dio.me/sign-up?ref=GT89AV3WGV" target="_blank">Digital Innovation One</a>
+            </li>
+        </ul>
+    </main>
+
+    <footer style="color:#000;text-align: center;padding: 12px;">&copy; Desenvolvido por
+        Claudia de Jesus Dantas </footer>
+</body>
+
+</html>
