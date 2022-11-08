@@ -1,5 +1,7 @@
 # NTT Data Diversidade em Tech
 
+<img src="https://media4.giphy.com/media/6XX4V0O8a0xdS/giphy.gif" width="500" height="250" />
+
 Chegou o bootcamp para quem quer entrar de vez no mercado tech e desenvolver com tecnologias front-end! 
 A [NTT DATA](https://services.global.ntt/) Diversidade em Tech traz uma trilha completa para você decolar em desenvolvimento front-end com HTML, CSS, JavaScript, Angular e AWS. Mulheres, pessoas pretas, indígenas, comunidade LGBTI+, pessoas com deficiência, pessoas 50+, enfim, grupos minorizados que estão buscando uma oportunidade no mercado de tecnologia, esse bootcamp é para você! Compartilhe e vamos trazer mais que representatividade, a inclusão no mercado de tecnologia.
 
