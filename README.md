@@ -7,14 +7,14 @@ A [NTT DATA](https://services.global.ntt/) Diversidade em Tech traz uma trilha c
 
 <!-- https://web.dio.me/track/38a27e68-67ae-444d-9110-1056e605237d -->
 
-##Apostilas
+## Apostilas
 
 [Apostila: Aprendendo HTML na prática](https://github.com/claudiadejesusdantas/NTTDataDiversidadeEmTech/blob/main/%5BCurso%5D%20HTML%20na%20pr%C3%A1tica.pdf)
 
 [Apostila: Entendendo comunicação Client x Server](https://github.com/claudiadejesusdantas/NTTDataDiversidadeEmTech/blob/main/%5BDio%5D%20Entendendo%20Comunica%C3%A7%C3%A3o%20Client%20x%20Server.pdf)
 
 
-##Projetos
+## Projetos
 
 
-##Links
+## Links
