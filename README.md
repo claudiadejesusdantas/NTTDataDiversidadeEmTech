@@ -13,8 +13,13 @@ A [NTT DATA](https://services.global.ntt/) Diversidade em Tech traz uma trilha c
 
 [Apostila: Entendendo comunicação Client x Server](https://github.com/claudiadejesusdantas/NTTDataDiversidadeEmTech/blob/main/%5BDio%5D%20Entendendo%20Comunica%C3%A7%C3%A3o%20Client%20x%20Server.pdf)
 
+[Apostila: Trabalhando com formulários]
 
 ## Projetos
-
+[Desafio de Projeto - HTML](https://github.com/claudiadejesusdantas/NTTDataDiversidadeEmTech/tree/main/DesafioDeProjeto__HTML)
+[]()
 
 ## Links
+
+### Certificados
+
