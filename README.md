@@ -17,7 +17,7 @@ A [NTT DATA](https://services.global.ntt/) Diversidade em Tech traz uma trilha c
 
 ## Projetos
 [Desafio de Projeto - HTML](https://github.com/claudiadejesusdantas/NTTDataDiversidadeEmTech/tree/main/DesafioDeProjeto__HTML)
-[]()
+[Desafio Criando seu Primeiro Site Completo com HTML ](https://github.com/claudiadejesusdantas/NTTDataDiversidadeEmTech/tree/main/DesafioDeProjeto_SiteClinica)
 
 ## Links
 
