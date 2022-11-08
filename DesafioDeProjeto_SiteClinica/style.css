@@ -1,0 +1,131 @@
+:root{
+    --branco: #e5fec5;
+    --azulclaro: #c5fec6;
+    --azulmedio: #a3fec7;
+    --azulescuro: #29ffc9;
+    --preto: #392a35;
+}
+
+/* MENU */
+a{
+    text-decoration: none;
+    color: var(--preto);
+}
+
+li{
+    list-style-image: url(./img/brainOne.svg);
+}
+
+.menu{
+    background-color: var(--azulclaro);
+}
+
+/* HEADER */
+
+
+.image-header{
+    width: 100%;
+    height: 70vh;
+}
+
+/* CONTAINERS */
+
+.container-principal{
+    display: flex;
+}
+
+.container-tabelaValores{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+
+.tabelaFuncionamento{
+   
+    margin: 12px auto;
+}
+
+/* TABELA */
+.tituloTabela{
+    font-size: 24px;
+    color: var(--preto);
+}
+
+.tabelaFuncionamento td, .tabelaFuncionamento th{
+    padding: 5px;
+    margin: 0px;
+}
+
+.tabelaFuncionamento th{
+    background-color: var(--azulescuro);
+}
+
+.tabelaFuncionamento tr:nth-of-type(even){
+    background-color: var(--azulmedio);
+}
+
+.tabelaValores td, .tabelaValores th{
+    padding: 5px;
+    margin: 0px;
+}
+
+.tabelaValores th{
+    background-color: var(--azulescuro);
+}
+
+.tabelaValores tr:nth-of-type(odd){
+    background-color: var(--azulmedio); 
+}
+
+
+.footer{
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    color: var(--preto);
+    background-color: var(--azulmedio);
+    min-height: 5vh;
+}
+
+/* BASE */
+/* 
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    /* background-color: rgb(5, 108, 108); 
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+} */
