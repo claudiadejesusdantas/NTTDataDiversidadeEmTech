@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula: Button e seus tipos</title>
+</head>
+
+<body>
+    <form onsubmit="" method="get">
+        <label> Nome: </label> <input type="text" name="name"> <br>
+        <label> Cargo: </label>
+        <select name="role" >
+            <!-- multiple é um atributo que pode selecionar mais de uma opção -->
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+            <option selected value="">Selecione o cargo</option>
+            <!-- selected é para deixar algum selecionado pré-definido -->
+        </select>
+        <label> Assunto: </label> <input type="text" name="subject"><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>

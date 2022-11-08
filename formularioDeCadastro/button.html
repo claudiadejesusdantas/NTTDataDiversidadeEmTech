@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula: Button e seus tipos</title>
+</head>
+<body>
+    <form onsubmit="" method="get">
+        <label> Nome: <input type="text" name="name"></label> <br>
+        <label> Idade: <input type="number" name="age"></label> <br>
+        <label> Password: <input type="password" name="password"></label> <br>
+
+        <button type="button" onclick="alert('cliquei aqui')">Clicável</button> <br>
+        <!-- cria um botão clicável -->
+        <button type="button" onmouseover="alert('passei aqui')">Mouse</button> <br>
+        <!-- cria um botão que ativa ao passar o mouse -->
+        <button type="reset">Limpar</button> <br>
+        <!-- reset limpa os campos do form que está inserido -->
+        <button type="submit">Enviar</button> <br>
+        <!-- enviar o formulário para o servidor -->
+        <!-- onsubmit serve para validar o formulário -->
+        <!-- uma convensão é colocar asteriscos nos campos obrigatórios de preenchimento -->
+        <!-- é indicado que onsubmit fique no topo do form -->
+
+    </form>
+</body>
+</html>
