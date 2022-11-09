@@ -77,6 +77,47 @@ li{
     background-color: var(--azulmedio); 
 }
 
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tel-contato, .email-contato {
+    text-align: center;
+    margin: 0px 12px;
+    padding: 5px;
+    font-size: 22px;
+}
+
+.maps{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.maps p{   
+   font-size: 22px;
+   padding: 5px;
+}
+
+.name, .email, .about, .message{
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.botoes button{
+    padding: 0px 25px;
+    margin: 0 10px ;
+}
+
+
 
 .footer{
     padding: 12px;
